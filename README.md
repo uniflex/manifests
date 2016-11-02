@@ -21,7 +21,7 @@ Developer Installation
 
 5. Get manifest files:
 
-        python2 ./repo init -u ssh://git@github.com/tkn-tub/manifests.git
+        python2 ./repo init -u ssh://git@github.com/uniflex/manifests.git
 
 6. Get all repositories:
 
@@ -59,17 +59,17 @@ Running examples
 
 1. Only local node:
 
-        wishful-agent --config ./config_local.yaml
+        uniflex-agent --config ./config_local.yaml
 
 2. Global and local nodes (run with -v for debug mode):
 
         # start broker to enable data exchange
-        wishful-broker
+        uniflex-broker
 
         # start global node
         cd ./examples/simple_controller
-        wishful-agent --config ./config_master.yaml
+        uniflex-agent --config ./config_master.yaml
 
         # start local node
         cd ./examples/simple_controller
-        wishful-agent --config ./config_slave.yaml
+        uniflex-agent --config ./config_slave.yaml
