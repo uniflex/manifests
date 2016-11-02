@@ -1,27 +1,19 @@
-./libs/stream_pipe
-./libs/scapy-python3
-./libs/pyre
-./libs/python-tc
-./upis
-./framework
-./framework_modules/discovery
-./framework_modules/discovery_pyre
-./controller
-./controller_modules/handover
-./controller_modules/wireless_topology
-./agent
-./agent_modules/rules
-./agent_modules/simple
-./agent_modules/iperf
-./agent_modules/wifi
-./agent_modules/wifi_ath
-./agent_modules/ni_sdr
-./agent_modules/rs_signal_gen
-./agent_modules/spectral_scan_ath9k
-./agent_modules/robot
-./agent_modules/net_linux
-./agent_modules/gnuradio
-./agent_modules/contiki
-./examples
-./tests
-./mininet
+-e git+https://github.com/wishful-project/stream_pipe.git#egg=stream_pipe
+-e git+https://github.com/wishful-project/pyre.git#egg=pyre
+-e git+https://github.com/wishful-project/python-tc.git#egg=python-tc
+-e git+https://github.com/phaethon/scapy.git#egg=scapy-python3
+-e ./uniflex
+-e ./modules/simple
+-e ./modules/iperf
+-e ./modules/net_linux
+-e ./modules/rs_signal_gen
+-e ./modules/gnuradio
+-e ./modules/ni_sdr
+-e ./modules/wifi
+-e ./modules/wifi_ath
+-e ./modules/wifi_gnuradio
+-e ./apps/discovery_pyre
+-e ./apps/handover
+-e ./apps/wireless_topology
+-e ./examples
+-e ./mininet

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="ssh://git@github.com/wishful-project/" />
+           fetch="ssh://git@github.com/tkn-tub/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -10,44 +10,27 @@
            remote="origin"
            sync-j="4" />
 
-
   <!-- Core -->
-  <project name="wishful_upis" path="upis"/>
-  <project name="framework" path="framework"/>
-  <project name="controller" path="controller"/>
-  <project name="agent" path="agent"/>
-  <!-- Libs -->
-  <project name="stream_pipe" path="libs/stream_pipe"/>
-  <project name="pyre" path="libs/pyre"/>
-  <project name="python-tc" path="libs/python-tc"/>
-  <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
-  <!-- Framework Modules -->
-  <project name="module_discovery" path="framework_modules/discovery"/>
-  <project name="module_discovery_pyre" path="framework_modules/discovery_pyre"/>
-  <!-- Controller Modules -->
-  <project name="module_handover" path="controller_modules/handover"/>
-  <project name="module_wireless_topology" path="controller_modules/wireless_topology"/>
-  <!-- Agent Modules -->
-  <project name="module_rules" path="agent_modules/rules"/>
-  <project name="module_simple" path="agent_modules/simple"/>
-  <project name="module_iperf" path="agent_modules/iperf"/>
-  <project name="module_wifi" path="agent_modules/wifi"/>
-  <project name="module_wifi_ath" path="agent_modules/wifi_ath"/>
-  <project name="module_wifi_wmp" path="agent_modules/wifi_wmp"/>
-  <project name="module_ni_sdr" path="agent_modules/ni_sdr"/>
-  <project name="module_rs_signal_gen" path="agent_modules/rs_signal_gen"/>
-  <project name="module_robot" path="agent_modules/robot"/>
-  <project name="module_net_linux" path="agent_modules/net_linux"/>
-  <project name="module_gnuradio" path="agent_modules/gnuradio"/>
-  <project name="module_spectral_scan_ath9k" path="agent_modules/spectral_scan_ath9k"/>
-  <project name="module_contiki" path="agent_modules/contiki"/>
+  <project name="uniflex" path="uniflex"/>
+  <!-- Modules -->
+  <project name="module_simple" path="modules/simple"/>
+  <project name="module_iperf" path="modules/iperf"/>
+  <project name="module_net_linux" path="modules/net_linux"/>
+  <project name="module_rs_signal_gen" path="modules/rs_signal_gen"/>
+  <project name="module_gnuradio" path="modules/gnuradio"/>
+  <project name="module_ni_sdr" path="modules/ni_sdr"/>
+  <project name="module_wifi" path="modules/wifi"/>
+  <project name="module_wifi_ath" path="modules/wifi_ath"/>
+  <project name="module_wifi_gnuradio" path="modules/wifi_gnuradio"/>
+  <!-- Apps -->
+  <project name="app_handover_wifi" path="apps/discovery_pyre"/>
+  <project name="app_discovery_pyre" path="apps/handover"/>
+  <project name="app_wireless_topology" path="apps/wireless_topology"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
-  <!-- Tests -->
-  <project name="tests" path="tests"/>
   <!-- Other -->
-  <project name="wishful_mininet" path="mininet"/>
-  <project name="project_scripts" path="scripts"/>
+  <project name="uniflex-mininet" path="mininet"/>
+  <project name="node-red-uniflex" path="node-red"/>
 
 </manifest>
 
