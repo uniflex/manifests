@@ -17,3 +17,4 @@
 -e ./apps/wireless_topology
 -e ./examples
 -e ./mininet
+-e ./upis
