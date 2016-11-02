@@ -48,7 +48,7 @@ Installation
 
 3. Install all dependencies (if all needed):
 
-        pip3 install -U -r ./.repo/manifests/requirements_dev.txt
+        pip3 install -U -r ./.repo/manifests/requirements.txt
 
 4. Deactivate virtual environment (if you need to exit):
 
