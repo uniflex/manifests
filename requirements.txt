@@ -2,7 +2,7 @@
 -e git+https://github.com/wishful-project/pyre.git#egg=pyre
 -e git+https://github.com/wishful-project/python-tc.git#egg=python-tc
 -e git+https://github.com/phaethon/scapy.git#egg=scapy-python3
--e git+https://github.com/wishful-project/wishful_upis.git@dev#egg=wishful_upi
+-e ./sbi
 -e ./uniflex
 -e ./modules/simple
 -e ./modules/iperf
