@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="ssh://git@github.com/tkn-tub/" />
+           fetch="ssh://git@github.com/uniflex/" />
+
+  <remote  name="wishful"
+           fetch="ssh://git@github.com/wishful-project/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -31,6 +34,8 @@
   <!-- Other -->
   <project name="uniflex-mininet" path="mininet"/>
   <project name="node-red-uniflex" path="node-red"/>
+  <!-- WiSHFUL UPI -->
+  <project name="wishful_upis" remote="wishful" path="upi"/>
 
 </manifest>
 
