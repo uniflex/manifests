@@ -34,6 +34,8 @@
   <!-- Other -->
   <project name="uniflex-mininet" path="mininet"/>
   <project name="node-red-uniflex" path="node-red"/>
-
+  <!-- SBI -->
+  <project name="sbi" path="sbi"/>
+  
 </manifest>
 
