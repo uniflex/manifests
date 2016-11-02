@@ -26,8 +26,8 @@
   <project name="module_wifi_ath" path="modules/wifi_ath"/>
   <project name="module_wifi_gnuradio" path="modules/wifi_gnuradio"/>
   <!-- Apps -->
-  <project name="app_handover_wifi" path="apps/discovery_pyre"/>
-  <project name="app_discovery_pyre" path="apps/handover"/>
+  <project name="app_discovery_pyre" path="apps/discovery_pyre"/>
+  <project name="app_handover_wifi" path="apps/handover"/>
   <project name="app_wireless_topology" path="apps/wireless_topology"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
