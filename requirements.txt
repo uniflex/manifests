@@ -16,5 +16,4 @@
 -e ./apps/discovery_pyre
 -e ./apps/handover
 -e ./apps/wireless_topology
--e ./examples
 -e ./mininet
