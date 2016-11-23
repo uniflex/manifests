@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="https://github.com/uniflex/" />
+
+  <remote  name="wishful"
+           fetch="https://github.com/wishful-project/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+  <!-- Core -->
+  <project name="uniflex" path="uniflex"/>
+  <!-- Modules -->
+  <project name="module_simple" path="modules/simple"/>
+  <project name="module_iperf" path="modules/iperf"/>
+  <project name="module_net_linux" path="modules/net_linux"/>
+  <project name="module_rs_signal_gen" path="modules/rs_signal_gen"/>
+  <project name="module_gnuradio" path="modules/gnuradio"/>
+  <project name="module_ni_sdr" path="modules/ni_sdr"/>
+  <project name="module_wifi" path="modules/wifi"/>
+  <project name="module_wifi_ath" path="modules/wifi_ath"/>
+  <project name="module_wifi_gnuradio" path="modules/wifi_gnuradio"/>
+  <!-- Apps -->
+  <project name="app_discovery_pyre" path="apps/discovery_pyre"/>
+  <project name="app_handover_wifi" path="apps/handover"/>
+  <project name="app_wireless_topology" path="apps/wireless_topology"/>
+  <!-- Examples -->
+  <project name="examples" path="examples"/>
+  <!-- Other -->
+  <project name="uniflex-mininet" path="mininet"/>
+  <project name="node-red-uniflex" path="node-red"/>
+  <!-- SBI -->
+  <project name="sbi" path="sbi"/>
+  
+</manifest>

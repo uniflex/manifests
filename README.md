@@ -1,3 +1,40 @@
+User Installation (no Github rights needed)
+====================================
+
+1. Install requirements:
+
+        sudo apt-get install wget git python python-virtualenv python-dev python3-dev python3-pip
+
+2. Configure your git credentials:
+
+        git config --global user.name "Your Name"
+        git config --global user.email "you@example.com"
+
+3. Download git-repo:
+
+        wget https://storage.googleapis.com/git-repo-downloads/repo
+        chmod a+x ./repo
+
+4. Get manifest files:
+
+        python2 ./repo init -u https://github.com/uniflex/manifests.git
+
+5. Configure user-only manifest file:
+
+        python2 ./repo init -m user.xml
+
+6. Get all repositories:
+
+        # to get all repositories
+        python2 ./repo sync
+        # set master branch for all repos
+        python2 ./repo forall -c 'git checkout master'
+        # to check status of all repositories
+        python2 ./repo status
+        # to pull all repositories at once:
+        python2 ./repo forall -c 'git pull --rebase'
+
+
 Developer Installation
 ======================
 
