@@ -5,7 +5,6 @@
 -e ./sbi
 -e ./uniflex
 -e ./modules/simple
--e ./modules/iperf
 -e ./modules/net_linux
 -e ./modules/rs_signal_gen
 -e ./modules/gnuradio
@@ -16,4 +15,5 @@
 -e ./apps/discovery_pyre
 -e ./apps/handover
 -e ./apps/wireless_topology
+-e ./apps/iperf
 -e ./mininet

@@ -17,7 +17,6 @@
   <project name="uniflex" path="uniflex"/>
   <!-- Modules -->
   <project name="module_simple" path="modules/simple"/>
-  <project name="module_iperf" path="modules/iperf"/>
   <project name="module_net_linux" path="modules/net_linux"/>
   <project name="module_rs_signal_gen" path="modules/rs_signal_gen"/>
   <project name="module_gnuradio" path="modules/gnuradio"/>
@@ -29,6 +28,7 @@
   <project name="app_discovery_pyre" path="apps/discovery_pyre"/>
   <project name="app_handover_wifi" path="apps/handover"/>
   <project name="app_wireless_topology" path="apps/wireless_topology"/>
+  <project name="app_iperf_control" path="apps/iperf"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
   <!-- Other -->
