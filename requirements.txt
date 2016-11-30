@@ -12,6 +12,7 @@
 -e ./modules/wifi
 -e ./modules/wifi_ath
 -e ./modules/wifi_gnuradio
+-e ./modules/wifi_intel
 -e ./apps/discovery_pyre
 -e ./apps/handover
 -e ./apps/wireless_topology

@@ -24,6 +24,7 @@
   <project name="module_wifi" path="modules/wifi"/>
   <project name="module_wifi_ath" path="modules/wifi_ath"/>
   <project name="module_wifi_gnuradio" path="modules/wifi_gnuradio"/>
+  <project name="module_wifi_intel" path="modules/wifi_intel"/>
   <!-- Apps -->
   <project name="app_discovery_pyre" path="apps/discovery_pyre"/>
   <project name="app_handover_wifi" path="apps/handover"/>
