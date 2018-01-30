@@ -17,4 +17,5 @@
 -e ./apps/handover
 -e ./apps/wireless_topology
 -e ./apps/iperf
+-e ./apps/intents
 -e ./mininet
