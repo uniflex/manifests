@@ -30,6 +30,7 @@
   <project name="app_handover_wifi" path="apps/handover"/>
   <project name="app_wireless_topology" path="apps/wireless_topology"/>
   <project name="app_iperf_control" path="apps/iperf"/>
+  <project name="app_intents" path="apps/intents"/>
   <!-- Examples -->
   <project name="examples" path="examples"/>
   <!-- Other -->
